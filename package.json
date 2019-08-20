@@ -1,0 +1,55 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "webpack",
+    "react",
+    "starter",
+    "react-router",
+    "redux",
+    "redux-saga"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.mode development --config ./config/webpack.base.config.js",
+    "prod": "webpack --mode production --config config/webpack.prod.config.js --env.NODE_ENV=production --progress"
+  },
+  "author": "https://github.com/Clevinpro/",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "autoprefixer": "9.6.1",
+    "babel-loader": "8.0.6",
+    "classnames": "^2.2.6",
+    "css-loader": "3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "4.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "4.12.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "postcss-loader": "^3.0.0",
+    "primeicons": "2.0.0",
+    "primereact": "3.1.8",
+    "react-hot-loader": "4.12.11",
+    "react-transition-group": "4.2.2",
+    "sass-loader": "7.2.0",
+    "style-loader": "1.0.0",
+    "uglifyjs-webpack-plugin": "2.2.0",
+    "webpack": "4.39.2",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0",
+    "webpack-merge": "^4.2.1",
+    "webpackbar": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^5.0.1"
+  }
+}
